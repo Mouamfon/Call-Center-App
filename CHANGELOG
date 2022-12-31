@@ -1,0 +1,61 @@
+CHANGELOG
+
+0.2.7
+
+    customer.php
+	- Fixed bugs relating to adding a customer.
+	- Fixed bug for editing customer information.
+    a_techs.php
+	- Fixed bugs in adding a technician.
+    call.inc.php (used to be functions_call.php)
+	- Altered the function used to display previous calls so that it displays the correct title in the table
+	  (Previous Calls or Call Recap).
+
+
+
+0.2.6
+
+2003-03-25
+    a_techs.php
+	- finished Add Tech and Edit Tech functions
+    a_calls.php
+	- began converting this file to the new code layout
+    connect.php
+	- added function for connecting to export database
+    status.php
+	- added status elements for Add Tech and Edit Tech
+
+2003-03-13
+    customer.php
+	- fixed Technical Edit form to pass userid with submission so the link to NewCall on the status
+	  display works correctly.
+	- altered EditForm to pull system specs (system speed, ram) from DB.
+    functions_call.php
+	- made appropriate changes to deal with calls.dt_start as a timestamp integer instead of a date
+	  string
+    call.php
+	- made appropriate changes to deal with calls.dt_start as a timestamp integer instead of a date
+	  string
+    DB
+	- changed calls.dt_start to an int(11) instead of a varchar(14). the start date/time of a call
+	  is now stored as a timestamp instead of as YYYYMMDDHHMMSS
+
+2003-03-01
+    header.php
+	- bugs with sessions
+    functions_call.php
+	- added config values to arrays instead of holding the 3 queries open
+    DB
+	- changed techs.status to techs.access_level in order avoid join issues.
+	  joining calls with techs yielded that the status field pointed to
+	  techs.status instead of calls.status since they were called the same thing.
+
+2003-02-28
+    header.php
+	- reworked session management, slimming down the process.
+    index.php
+	- reworked session management, giving more control to header.php
+
+2003-02-27
+    call.php
+	- now all aspects of the NewCall form are pulled from the DB (Problem,Verified,Status)

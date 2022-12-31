@@ -1,0 +1,23 @@
+README
+-----------------------------------------
+PHP Call Center
+Started May 2002
+http://www.sourceforge.net/projects/phpcc
+-----------------------------------------
+
+INSTALLATION
+1. Make sure you have PHP and MySQL set up correctly on your system.
+2. Extract the contents of the tar file to a web published directory (particularly into a folder called phpcc).
+3. Create a MySql database to be used by the application (ie. phpcc).
+4. Edit connect.php with the correct MySql user, password, host, and database name.
+5. From your browser, enter the URL to the install.php script.
+6. If it installs successfully, enter the URL to the index.php file and log in with "1111111111".
+7. Enjoy.
+
+
+
+KNOWN ISSUES - 2003-04-15
+	- Call Search currently is not functioning
+	- Administrative Reports are not finished
+	- Administrative DB Management not finished
+	- Partial problems with other Administrative functions as well
