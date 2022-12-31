@@ -1,8 +1,6 @@
 README
 -----------------------------------------
 PHP Call Center
-Started May 2002
-http://www.sourceforge.net/projects/phpcc
 -----------------------------------------
 
 INSTALLATION
@@ -16,7 +14,7 @@ INSTALLATION
 
 
 
-KNOWN ISSUES - 2003-04-15
+KNOWN ISSUES - 2022-12-20
 	- Call Search currently is not functioning
 	- Administrative Reports are not finished
 	- Administrative DB Management not finished
