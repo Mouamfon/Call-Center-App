@@ -9,7 +9,7 @@ INSTALLATION
 3. Create a MySql database to be used by the application (ie. phpcc).
 4. Edit connect.php with the correct MySql user, password, host, and database name.
 5. From your browser, enter the URL to the install.php script.
-6. If it installs successfully, enter the URL to the index.php file and log in with "1234567890".
+6. If it installs successfully, enter the URL to the index.php file and log in with "1111111111".
 7. Enjoy.
 
 
